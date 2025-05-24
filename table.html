@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Робота з таблицями та списками</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Розклад занять</h2>
+<table>
+    <thead>
+        <tr>
+            <th>№ пари</th>
+            <th>Час</th>
+            <th>Понеділок</th>
+            <th>Вівторок</th>
+            <th>Середа</th>
+            <th>Четвер</th>
+            <th>П'ятниця</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>8:30-10:05</td>
+            <td>Математика</td>
+            <td>Фізика</td>
+            <td>Хімія</td>
+            <td>Біологія</td>
+            <td>Історія</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>10:15-11:50</td>
+            <td>Англійська</td>
+            <td>Географія</td>
+            <td>Інформатика</td>
+            <td>Музика</td>
+            <td>Фізкультура</td>
+        </tr>
+    </tbody>
+</table>
+<h2>Таблиця з об'єднаними комірками</h2>
+<table>
+    <tr>
+        <th rowspan="2">Ім'я</th>
+        <th colspan="2">Оцінки</th>
+    </tr>
+    <tr>
+        <th>Математика</th>
+        <th>Фізика</th>
+    </tr>
+    <tr>
+        <td>Анна</td>
+        <td>10</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Олег</td>
+        <td>8</td>
+        <td>7</td>
+    </tr>
+</table>
+<h2>Вкладені списки</h2>
+<h3>Багаторівненвий список</h3>
+<ul>
+    <li>Головна</li>
+    <li>Про нас
+        <ul>
+            <li>Історія</li>
+            <li>Наша команда</li>
+        </ul>
+    </li>
+    <li>Послуги
+        <ul>
+            <li>Розробка сайтів</li>
+            <li>Дизайн</li>
+            <li>Маркетинг</li>
+        </ul>
+    </li>
+    <li>Контакти</li>
+</ul>
+<h3>Список з різними маркерами</h3>
+<ul style="list-style-type: square;">
+    <li>Елемент 1</li>
+    <li>Елемент 2</li>
+</ul>
+<ul style="list-style-type: circle;">
+    <li>Елемент A</li>
+    <li>Елемент B</li>
+</ul>
+<h3>Нумерований список з різними типами нумерації</h3>
+<ol type="1">
+    <li>Перший пункт</li>
+    <li>Другий пункт</li>
+</ol>
+<ol type="A">
+    <li>Пункт A</li>
+    <li>Пункт B</li>
+</ol>
+<ol type="I">
+    <li>Пункт I</li>
+    <li>Пункт II</li>
+</ol>
+<h2>Список визначень</h2>
+<dl>
+    <dt>HTML</dt>
+    <dd>Мова розмітки гіпертексту</dd>
+    <dt>CSS</dt>
+    <dd>Каскадні таблиці стилів</dd>
+    <dt>JavaScript</dt>
+    <dd>Мова програмування для роботи з веб</dd>
+</dl>
+</body>
+</html>
